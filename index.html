@@ -4,32 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FullStackRoad</title>
-    <style>
-        section {
-                  margin-top: 40px;
-                }
-                h1 {
-                  font-size: 40px;
-                }
-                p {
-                  color: #0f9ea3;
-                }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hi, I'm Alex</h1>
-    <p>I'm learning Full Stack Web Development</p>
-    <img src="images/portfolio2.png" alt="profile">
-    <p>I am 29 years old and becoming a developer</p>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavScript(beginner)</li>
-    </ul>
+    <nav>
+        <a href="#hero">Home</a> | 
+        <a href="#about">About</a> | 
+        <a href="#skills">Skills</a> | 
+        <a href="#projects">Projects</a>
+    </nav>
 
-    <a href="https://makhkamboy.github.io/my-first-website/" target="blank">My GitHub</a>
-    <br>
+   <section id="hero">
+        <h1>Hi, I’m Makhkamboy</h1>
+        <p>Future Full Stack Developer | Building real projects</p>
+        <img src="images/portfolio2.png" alt="" >
+    </section>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am 28 years old, learning full stack development, and building real projects to showcase my skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3 / Flexbox / Grid</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Node.js / Express</li>
+            <li>MongoDB</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">My First Website</a></li>
+            <li><a href="#">To-Do App (React)</a></li>
+            <li><a href="#">Movie App (API)</a></li>
+        </ul>
+    </section>
     <button onclick="showMessage()">Press Me</button>
 
     <script>
@@ -38,9 +53,10 @@
         }
     </script>
 
-    <section>
-        <h2>About Me</h2>
-        <p>I am learning full stack development and building real projects.</p>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:yourname@gmail.com">yourname@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/makhkamboy" target="_blank">github.com/makhkamboy</a></p>
     </section>
 
 </body>
